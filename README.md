@@ -43,6 +43,6 @@ Ensure you have Python installed along with the required libraries:
 
 ```bash
 pip install numpy pandas matplotlib
-
+```
 ##  Evaluation Strategy
 The implementation uses standard Query Relevance Judgments (qrels) extracted directly from verified relevant sets to test system outputs. Evaluation metrics computed include:Recall@k (tested dynamically from $k=1$ to $100$)nDCG@k (Ranking quality evaluation)
