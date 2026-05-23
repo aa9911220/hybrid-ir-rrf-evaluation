@@ -13,7 +13,7 @@ Our evaluation compares the BM25 baseline against two dense retrieval encoders (
 | Model Combination | Recall@1 | Recall@5 | Recall@10 | Recall@20 | Recall@100 |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **BM25 Baseline** | 0.347 | 0.627 | 0.693 | 0.787 | *1.00* |
-| **Hybrid (BM25 + MiniLM)** | **0.587** | 0.707 | 0.827 | 0.893 | *High* |
+| **Hybrid (BM25 + MiniLM)** | **0.587** | 0.707 | 0.827 | 0.893 | 0.97 |
 | **Hybrid (BM25 + MPNet)** | 0.573 | **0.707** | **0.840** | **0.907** | **1.00** |
 
 ### 🔍 Key Findings
